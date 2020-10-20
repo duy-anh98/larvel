@@ -1,0 +1,12 @@
+{
+    "name": "admin/bot",
+    "authors": [
+        {
+            "name": "Canpham",
+            "email": "phamtomm1999@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/events": "^7.28"
+    }
+}
