@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Auth::routes();
+Route::get('/','AdminController@index');
+Route::resource('/product', 'ProductController');
+Route::get('/home', 'HomeController@index')->name('home');
+
